@@ -1,0 +1,67 @@
+		h1 {
+			color: #999999;
+			font-size: 37px;
+			font-weight: bold;
+			font-family: arial;
+			}
+
+		h2 {
+			color: #999999;
+			font-size: 20px;https://www.facebook.com/brother337/posts/10105791542050126?comment_id=10105792142876066&notif_t=feed_comment_reply&notif_id=1469567054239086#
+			font-weight: normal;
+			font-family: arial;
+			}
+
+		p {
+			color: #999999;
+			font-size: 12px;
+			font-family: arial;
+			}
+
+		ul { 	padding-left: 0;
+			}
+
+		li  { 	 
+			list-style: none;
+			margin-right: 20px;
+			display: inline;
+			}
+
+		a {
+			color: #999999;
+			font-family: arial;
+			text-decoration: none;
+			}
+
+		a:hover {
+			color: #121212;
+			}
+
+		.wrap { 
+			width: 600px;	
+			margin: auto;
+			}
+
+		#release_title {
+			text-align: center;
+			}
+
+		table {
+			border-collapse: collapse;
+			width: 600px;
+			}
+
+		tr {
+
+			}
+		
+		td {
+			height: 250px;
+			vertical-align: bottom;
+			border: 0px;
+			padding-bottom: 20px;
+			}
+
+		.right {
+			width: 330px;
+			}
