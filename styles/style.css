@@ -40,9 +40,10 @@
 		#header {
 			width: 900px;
 			height:160px;
+			padding-bottom: 5px;
 			}
 
-			#namenav {
+			#menu {
 				float: left;
 				width: 600px;
 				}
@@ -53,7 +54,8 @@
 					}
 
 					#navigation ul { 
-						padding-left: 0;
+						padding: 0;
+						margin: 0;
 						}
 
 						#navigation li  { 	 
@@ -66,6 +68,7 @@
 			#jukebox {
 				float: right;
 				width: 300px;
+				vertical-align: bottom;
 				}	
 
 		#featured {
