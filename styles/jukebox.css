@@ -1,64 +1,70 @@
 		#jukebox {
-			/..background-color:#999999; ../
+			/.. background-color:#555555; ../
 			-moz-border-radius:5px;
 			-webkit-border-radius:5px;
-			color:#999999;
-			padding:10px;
+			color:#979797;
+			padding:0px;
 			text-align: center;
 			font-family:helvetica, arial, verdana;
 			font-weight:normal;
 			font-size: 10px;
-			width:300px;
+			width:200px;
 			margin: auto;
-		}
+			margin-top: 90px;
+			}
+
 		#jukebox .loader {
-			border:1px solid #999999;
+			border:1px solid #979797;
 			height:3px;
 			margin:10px 0px
-		}
+			}
 		#jukebox .load-progress {
 			width:0px;
 			background-color:#fff;
 			height:3px;
-		}
+			}
 		#jukebox .play-progress {
 			width:0px;
-			background-color:#999999;
+			background-color:#979797;
 			height:3px;
-		}
+			}
 		
 		#jukebox .controls {
 			text-align:center;
-		}
+			}
 		
 		#jukebox .controls a {
 			display:inline-block;
-			width:33px;
-			height:33px;
-			margin:0px 14px;
 			overflow:hidden;
-			background-color: #fff;
-			background-image:url('../images/audio-controls-999.png');
 			background-repeat:no-repeat;
-		}
+			width: 20px;
+			height: 17px;
+			background-image:url('../images/audio-controls-979797-86wx17h-noalias.png');
+			margin:0px 13px;	
+			}
+
+		#jukebox .controls .prev,
+		#jukebox .controls .next {
+			letter-spacing: -3px;
+			}
 		
 		#jukebox .controls a:hover {
-			background-image:url('../images/audio-controls-121212.png');
-		}
+			background-image:url('../images/audio-controls-121212-86wx17h-noalias.png');
+			}
 		
 		#jukebox .controls a span {
 			display:none;
-		}
+			}
 		
 		#jukebox .controls a.prev {
-			background-position: -60px 0px;
-		}
+			background-position: -39px 0px;
+			}
 		#jukebox .controls a.next {
-			background-position: -90px 0px;
-		}
+			background-position: -69px 0px;
+			}
 		#jukebox .controls a.play {
-			background-position: 0px 0px;
-		}
+			background-position: 7px 0px;
+			}
 		#jukebox .controls a.pause {
-			background-position: -30px 0px;
-		}
+			background-position: -17px 0px;
+			}
