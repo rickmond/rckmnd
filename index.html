@@ -12,7 +12,7 @@
 <body>
 	<div class="wrap">
 		<div id="header">
-			<div id="namenav">
+			<div id="menu">
 				<h1><a href="">r ckm nd</a></h1>
 				<p>visual & sound artist | los angeles &#0149 london &#0149 tokyo</p>
 				<div id="navigation">
@@ -44,6 +44,22 @@
 				</audio>		
 			</div>
 		</div>
+
+
+
+
+
+
+
+
+<div id="nav-container">
+</div>
+
+
+
+
+
+
 		<div id="featured">
 			<div id="artwork">
 				<a href=""><img src=images/painting-dbsas-900px.jpg></img></a>
@@ -55,11 +71,19 @@
 		<div id="footer">
 			<div id="social">
 				<ul>
-					<li><a id="fb" href=""></a></li>
-					<li><a id="ig" href=""></a></li>
+					<li><a id="fb" href="https://www.facebook.com/rckmnd"></a></li>
+					<li><a id="ig" href="https://www.instagram.com/rckmnd/"></a></li>
 					<li><a id="line" href=""></a></li>
 				</ul>
-				<p>&#0169; 2016</p>
+				<p>
+					copyright &#0169;
+					<script type="text/javascript">
+						var d = new Date()
+						document.write(d.getFullYear())
+					</script>
+				</p>
+
+
 			</div>
 
 		</div>
@@ -69,6 +93,12 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/jukebox.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function() {
+$('#nav-container').load('nav.html');
+});
+</script>
 
 </body>
 </html>
