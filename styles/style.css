@@ -1,1 +1,124 @@
+		h1 {
+			color: #979797;
+			font-size: 55px;
+			font-weight: bold;
+			font-family: arial;
+			letter-spacing: -1px;
+			margin-bottom: -15px;
+			}
+
+		h2 {
+			color: #979797;
+			font-size: 20px;
+			font-weight: normal;
+			font-family: arial;
+			}
+
+		p {
+			color: #979797;
+			font-size: 11px;
+			font-family: arial;
+			}
+
+		a {
+			color: #979797;
+			font-family: arial;
+			text-decoration: none;
+			}
+
+		a:hover {
+			color: #121212;
+			}
+
+
+
+	.wrap { 
+		width: 900px;	
+		margin: auto;
+		}
+
+		#header {
+			width: 900px;
+			height:160px;
+			}
+
+			#namenav {
+				float: left;
+				width: 600px;
+				}
+
+				#navigation {
+					margin-top: 30px;
+					font-size: 16px;
+					}
+
+					#navigation ul { 
+						padding-left: 0;
+						}
+
+						#navigation li  { 	 
+							list-style: none;
+							margin-right: 20px;
+							display: inline;
+							color: #979797;
+							}
+
+			#jukebox {
+				float: right;
+				width: 300px;
+				}	
+
+		#featured {
+			margin: 0px;
+			padding: 0px;
+			}
+
+			#artwork {
+				}
+
+			#artwork_title {
+				text-align: center;
+				}
+
+		#footer{
+			width: 900px;
+			height:100px;
+			margin: auto;
+			}
+
+			#social {
+				width: 147px;
+				margin: auto;
+				text-align: center;	
+				}
+
+				#social ul {
+					margin: 0px;
+					padding: 0px;
+					}
+
+					#social li {
+						list-style: none;			
+						}
+
+						#social li a {
+							width:29px;
+							height: 29px;
+							text-indent: -99999px;
+							float: left;
+							margin: 30px 10px;	
+							}
+
+							#fb {	background: url('../images/FB-f-Logo__white_29-rollover.png') top; }
+							#fb:hover { background-position: bottom; }
+							#ig {	background: url('../images/glyph-logo_May2016-rollover.png') top; }
+							#ig:hover { background-position: bottom; }
+							#line { background: url('../images/LINE_Icon-rollover.png') top; }
+							#line:hover { background-position: bottom; }
+
+			#copyright {
+				display: block;
+				float: left;
+				}
+
 
