@@ -109,7 +109,7 @@
 							margin: 30px 10px;	
 							}
 
-							#fb {	background: url('../images/FB-f-Logo__white_29-rollover.png') top; }
+							#fb {	background: url('images/FB-f-Logo__white_29-rollover.png') top; }
 							#fb:hover { background-position: bottom; }
 							#ig {	background: url('../images/glyph-logo_May2016-rollover.png') top; }
 							#ig:hover { background-position: bottom; }
